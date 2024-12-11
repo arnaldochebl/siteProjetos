@@ -3,6 +3,7 @@ title: "Arnaldo Chebl - Cientista de Dados"
 format: 
   html:
     css: styles.css
+    output-file: index.html
 ---
 
 ## Mais do que palavras, resultados.
