@@ -1,0 +1,28 @@
+---
+title: "Arnaldo Chebl - Cientista de Dados"
+format: 
+  html:
+    css: styles.css
+---
+
+## Mais do que palavras, resultados.
+
+Por que apenas falar quando você pode conferir? Aqui você encontrará o deploy de projetos que refletem minha experiência prática em Machine Learning, análise de dados e visualização interativa. Cada projeto foi desenvolvido para resolver problemas reais, gerar insights estratégicos e criar impacto.
+
+Explore e veja como aplico ciência de dados para transformar dados em decisões inteligentes:
+
+- [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de riscos, combinando aprendizado supervisionado e engenharia de features.*
+  
+- [**Consultoria de Dados - Olist**](https://docs.google.com/presentation/d/14Xk74pP7uZvJl56eKhq4THSe53pHs4qp/edit#slide=id.p1): *Estratégias baseadas em dados para otimização de vendas em marketplaces.*
+  
+- [**Dashboard Interativo Shiny**](https://datasciencedeploy.shinyapps.io/dash_olist/): *Ferramenta para visualização dinâmica de métricas de vendas e marketing.*
+  
+- [**Otimização de Campanhas de Marketing Digital**](https://arnaldochebl.github.io/marketing_analytics/): *Modelos para maximizar ROI e melhorar estratégias de segmentação.*
+  
+- [**Visualização de Dados de Vendas**](https://datasciencedeploy.shinyapps.io/dash_olist/): *Análise visual de dados de vendas e desempenho de produtos.*
+  
+- [**Otimização de Portfólios Financeiros**](https://github.com/arnaldochebl/financial_analytics/blob/main/series_volateis.ipynb): *Modelagem avançada de volatilidade e fronteira eficiente para investimentos financeiros.*
+
+Confira você mesmo o impacto dos projetos na prática. Acesse o link do deploy diretamente no meu currículo e veja os resultados em ação.
+
+*Interessado em saber mais? Estou à disposição para conversar sobre qualquer um dos projetos listados!*
