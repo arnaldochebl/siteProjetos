@@ -10,7 +10,7 @@ format:
 
 **Mais do que palavras, resultados.**
 
-Por que apenas falar quando você pode conferir alguns projetos? 
+Por que apenas falar quando você pode conferir alguns de meus projetos? 
 
 - [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de AVCs, combinando aprendizado supervisionado e engenharia de features.*
   
