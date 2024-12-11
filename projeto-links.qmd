@@ -1,16 +1,12 @@
 ---
-title: "Arnaldo Chebl - Cientista de Dados"
+title: "Arnaldo Chebl"
 format: 
   html:
     css: styles.css
     output-file: index.html
 ---
 
-
-
-**Mais do que palavras, resultados.**
-
-Por que apenas falar quando você pode conferir alguns de meus projetos? 
+Confira alguns de meus projetos de Data Science:
 
 - [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de AVCs, combinando aprendizado supervisionado e engenharia de features.*
   
