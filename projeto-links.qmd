@@ -6,8 +6,6 @@ format:
     output-file: index.html
 ---
 
-Confira alguns de meus projetos de Data Science:
-
 - [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de AVCs, combinando aprendizado supervisionado e engenharia de features.*
   
 - [**Consultoria de Dados - Olist**](https://docs.google.com/presentation/d/14Xk74pP7uZvJl56eKhq4THSe53pHs4qp/edit#slide=id.p1): *Apresentação da consultoria de dados em empresa B2B, mesclando técnicas de Design Thinking e Machine Learnig*
@@ -20,4 +18,4 @@ Confira alguns de meus projetos de Data Science:
 
 - [**Dashboard - Biodiversidade de espécies**](https://datasciencedeploy.shinyapps.io/appsylon4/): *Ferramenta interativa para consultar, explorar e análisar biodiversidade de espécies na Polônia.*
 
-*Interessado(a) em saber mais? Estou à disposição para conversar sobre qualquer um dos projetos listados!*
+*Estou à disposição para conversar sobre qualquer um dos projetos listados!*
