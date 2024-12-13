@@ -1,5 +1,5 @@
 ---
-title: "Arnaldo Chebl"
+title: "Arnaldo Chebl - Data Scientist"
 format: 
   html:
     css: styles.css
