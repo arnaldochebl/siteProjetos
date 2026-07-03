@@ -6,6 +6,8 @@ format:
     output-file: index.html
 ---
 
+- [**ML Clássico vs Transformers — NLP**](https://arnaldochebl.github.io/classic-ml-vs-transformers-nlp/): *Benchmark de classificação de 77 intenções bancárias: XGBoost híbrido vs DistilBERT fine-tunado — análise interativa de F1, latência, erros e ensemble.*
+
 - [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de AVCs, combinando aprendizado supervisionado e engenharia de features.*
   
 - [**Consultoria de Dados - Olist**](https://docs.google.com/presentation/d/14Xk74pP7uZvJl56eKhq4THSe53pHs4qp/edit#slide=id.p1): *Apresentação da consultoria de dados em empresa B2B, mesclando técnicas de Design Thinking e Machine Learnig*
