@@ -1,23 +1,200 @@
 ---
-title: "Arnaldo Chebl - Data Scientist"
-format: 
+pagetitle: "Arnaldo Chebl · Data Scientist"
+lang: pt-BR
+format:
   html:
     css: styles.css
     output-file: index.html
+    include-in-header:
+      text: |
+        <meta name="description" content="Portfólio de projetos de Data Science de Arnaldo Chebl: machine learning, NLP, dashboards e analytics aplicados a problemas reais.">
+        <meta property="og:title" content="Arnaldo Chebl · Data Scientist">
+        <meta property="og:description" content="Portfólio de projetos de Data Science: machine learning, NLP, dashboards e analytics.">
+        <meta property="og:type" content="website">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 ---
 
-- [**ML Clássico vs Transformers (NLP)**](https://arnaldochebl.github.io/classic-ml-vs-transformers-nlp/): *Benchmark de classificação de 77 intenções bancárias: XGBoost híbrido vs DistilBERT fine-tunado, com análise interativa de F1, latência, erros e ensemble.*
+```{=html}
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="avatar" aria-hidden="true">AC</div>
+    <p class="eyebrow">Portfólio · Data Science</p>
+    <h1>Arnaldo Chebl</h1>
+    <p class="role">Data Scientist</p>
+    <p class="tagline">Machine learning, NLP e analytics aplicados a problemas reais: da exploração dos dados ao modelo em produção.</p>
+    <div class="ctas">
+      <a class="btn primary" href="#projetos">Ver projetos ↓</a>
+      <a class="btn ghost" href="https://github.com/arnaldochebl" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+    <p class="heronote">Python · R · Machine Learning · NLP · Dashboards</p>
+  </div>
+</header>
 
-- [**Previsão de Derrames (AVCs)**](https://arnaldochebl.github.io/previsao_de_avc/): *Modelo preditivo para auxiliar na identificação de AVCs, combinando aprendizado supervisionado e engenharia de features.*
-  
-- [**Consultoria de Dados - Olist**](https://docs.google.com/presentation/d/14Xk74pP7uZvJl56eKhq4THSe53pHs4qp/edit#slide=id.p1): *Apresentação da consultoria de dados em empresa B2B, mesclando técnicas de Design Thinking e Machine Learnig*
-  
-- [**Dashboard - Vendedores Olist**](https://datasciencedeploy.shinyapps.io/dash_olist/): *Ferramenta auxiliar vendedores a gerir e melhorar a qualidade e quantidade de suas vendas*
-  
-- [**Otimização de Campanhas de Marketing Digital**](https://arnaldochebl.github.io/marketing_analytics/): *Modelos para maximizar ROI, otimizando estratégias de marketing digital.*
-  
-- [**Otimização de Portfólios Financeiros**](https://github.com/arnaldochebl/financial_analytics/blob/main/series_volateis.ipynb): *Modelagem avançada de volatilidade e fronteira eficiente para investimentos financeiros.*
+<!-- ═══════════ PROJETOS ═══════════ -->
+<section class="wrap" id="projetos">
+  <div class="sechead reveal">
+    <h2>Projetos</h2>
+    <p>Cada projeto sai do notebook e vira algo navegável: uma análise interativa, um app ou um dashboard. Filtre por área ou explore tudo.</p>
+  </div>
 
-- [**Dashboard - Biodiversidade de espécies**](https://datasciencedeploy.shinyapps.io/appsylon4/): *Ferramenta interativa para consultar, explorar e análisar biodiversidade de espécies na Polônia.*
+  <div class="filters reveal" role="group" aria-label="Filtrar projetos por área">
+    <button class="chip on" data-filter="all" aria-pressed="true">Todos <span>7</span></button>
+    <button class="chip" data-filter="ml" aria-pressed="false">Machine Learning <span>3</span></button>
+    <button class="chip" data-filter="nlp" aria-pressed="false">NLP <span>1</span></button>
+    <button class="chip" data-filter="dash" aria-pressed="false">Dashboards <span>2</span></button>
+    <button class="chip" data-filter="analytics" aria-pressed="false">Analytics <span>3</span></button>
+  </div>
 
-*Estou à disposição para conversar sobre qualquer um dos projetos listados!*
+  <div class="grid">
+
+    <a class="pcard featured reveal" data-cat="ml nlp" href="https://arnaldochebl.github.io/classic-ml-vs-transformers-nlp/" target="_blank" rel="noopener">
+      <span class="ribbon">✦ Destaque</span>
+      <div class="fwrap">
+        <div>
+          <div class="ptop">
+            <span class="picon" style="--tint:#e3f7ef">🏦</span>
+            <span class="pbadges"><span class="pcat cat-ml">Machine Learning</span><span class="pcat cat-nlp">NLP</span></span>
+          </div>
+          <h3 class="ptitle">ML Clássico vs Transformers</h3>
+          <p class="pdesc">Você precisa mesmo de um Transformer? Benchmark completo em 77 intenções bancárias: um XGBoost híbrido empata com o DistilBERT fine-tunado, e o ensemble vence os dois. Análise interativa e didática, com quiz, gráficos e casos reais de erro.</p>
+          <div class="ptags"><span>XGBoost</span><span>DistilBERT</span><span>Hugging Face</span><span>Python</span></div>
+        </div>
+        <div class="fmetrics" aria-hidden="true">
+          <div class="fm"><b>0.928</b><small>F1 macro do ensemble</small></div>
+          <div class="fm"><b>77</b><small>intenções classificadas</small></div>
+          <div class="fm"><b>3</b><small>modelos comparados</small></div>
+        </div>
+      </div>
+      <div class="pfoot"><span class="plink">Ver análise interativa <span class="arr">→</span></span><span class="phost">github.io</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="ml" href="https://arnaldochebl.github.io/previsao_de_avc/" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#e3f7ef">🧠</span>
+        <span class="pbadges"><span class="pcat cat-ml">Machine Learning</span></span>
+      </div>
+      <h3 class="ptitle">Previsão de Derrames (AVCs)</h3>
+      <p class="pdesc">Modelos de classificação treinados em base hospitalar para apoiar a identificação precoce de AVCs, do ETL ao tuning: regressão, Random Forest, XGBoost e redes neurais comparados por ROC-AUC e métrica própria.</p>
+      <div class="ptags"><span>R</span><span>Tidymodels</span><span>Redes Neurais</span></div>
+      <div class="pfoot"><span class="plink">Ver projeto <span class="arr">→</span></span><span class="phost">github.io</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="analytics" href="https://docs.google.com/presentation/d/14Xk74pP7uZvJl56eKhq4THSe53pHs4qp/edit#slide=id.p1" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#fdf1dc">🧩</span>
+        <span class="pbadges"><span class="pcat cat-an">Analytics</span></span>
+      </div>
+      <h3 class="ptitle">Consultoria de Dados · Olist</h3>
+      <p class="pdesc">Consultoria de dados para empresa B2B do ecossistema Olist, unindo Design Thinking e Machine Learning para transformar dores de negócio em soluções analíticas.</p>
+      <div class="ptags"><span>Design Thinking</span><span>Machine Learning</span><span>B2B</span></div>
+      <div class="pfoot"><span class="plink">Ver apresentação <span class="arr">→</span></span><span class="phost">Google Slides</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="dash" href="https://datasciencedeploy.shinyapps.io/dash_olist/" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#e3f2fd">📊</span>
+        <span class="pbadges"><span class="pcat cat-dash">Dashboard</span></span>
+      </div>
+      <h3 class="ptitle">Dashboard · Vendedores Olist</h3>
+      <p class="pdesc">Ferramenta interativa que ajuda vendedores do marketplace a acompanhar, gerir e melhorar a qualidade e o volume de suas vendas.</p>
+      <div class="ptags"><span>R</span><span>Shiny</span><span>E-commerce</span></div>
+      <div class="pfoot"><span class="plink">Abrir dashboard <span class="arr">→</span></span><span class="phost">shinyapps.io</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="ml analytics" href="https://arnaldochebl.github.io/marketing_analytics/" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#fdeaee">🎯</span>
+        <span class="pbadges"><span class="pcat cat-ml">Machine Learning</span><span class="pcat cat-an">Analytics</span></span>
+      </div>
+      <h3 class="ptitle">Otimização de Campanhas de Marketing</h3>
+      <p class="pdesc">Modelagem preditiva para otimizar estratégias de marketing digital e maximizar o ROI das campanhas.</p>
+      <div class="ptags"><span>Marketing</span><span>ROI</span><span>Modelagem Preditiva</span></div>
+      <div class="pfoot"><span class="plink">Ver projeto <span class="arr">→</span></span><span class="phost">github.io</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="analytics" href="https://github.com/arnaldochebl/financial_analytics/blob/main/series_volateis.ipynb" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#fdf1dc">📈</span>
+        <span class="pbadges"><span class="pcat cat-an">Analytics</span></span>
+      </div>
+      <h3 class="ptitle">Otimização de Portfólios Financeiros</h3>
+      <p class="pdesc">Modelagem de volatilidade em séries financeiras e construção da fronteira eficiente para alocação de investimentos.</p>
+      <div class="ptags"><span>Python</span><span>Séries Temporais</span><span>Fronteira Eficiente</span></div>
+      <div class="pfoot"><span class="plink">Ver notebook <span class="arr">→</span></span><span class="phost">GitHub</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="dash" href="https://datasciencedeploy.shinyapps.io/appsylon4/" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#e3f2fd">🌿</span>
+        <span class="pbadges"><span class="pcat cat-dash">Dashboard</span></span>
+      </div>
+      <h3 class="ptitle">Biodiversidade de Espécies</h3>
+      <p class="pdesc">Aplicação interativa para consultar, explorar e analisar a biodiversidade de espécies na Polônia.</p>
+      <div class="ptags"><span>R</span><span>Shiny</span><span>Ecologia</span></div>
+      <div class="pfoot"><span class="plink">Abrir dashboard <span class="arr">→</span></span><span class="phost">shinyapps.io</span></div>
+    </a>
+
+  </div>
+
+  <div class="talk reveal">
+    <div>
+      <h2>Vamos conversar?</h2>
+      <p>Estou à disposição para falar sobre qualquer um desses projetos, sobre dados ou sobre novas oportunidades.</p>
+    </div>
+    <a class="btn dark" href="https://github.com/arnaldochebl" target="_blank" rel="noopener">Me encontre no GitHub</a>
+  </div>
+</section>
+
+<footer class="pfooter">
+  <div class="wrap">
+    <span>© 2026 Arnaldo Chebl</span>
+    <span>Feito com Quarto · Publicado no GitHub Pages</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Filtros de categoria */
+  var chips = document.querySelectorAll('.chip');
+  var cards = document.querySelectorAll('.pcard');
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){ c.classList.remove('on'); c.setAttribute('aria-pressed','false'); });
+      chip.classList.add('on'); chip.setAttribute('aria-pressed','true');
+      var f = chip.getAttribute('data-filter');
+      cards.forEach(function(card){
+        var show = (f === 'all') || (card.getAttribute('data-cat').split(' ').indexOf(f) !== -1);
+        card.classList.toggle('hide', !show);
+        if (show && !reduced) {
+          card.classList.remove('pop');
+          void card.offsetWidth;
+          card.classList.add('pop');
+        }
+      });
+    });
+  });
+
+  /* Aparição suave ao rolar */
+  var toReveal = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !reduced) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {threshold:.1, rootMargin:'0px 0px -30px 0px'});
+    toReveal.forEach(function(el){ io.observe(el); });
+  } else {
+    toReveal.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+```
