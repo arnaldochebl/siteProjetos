@@ -114,8 +114,8 @@ format:
         <span class="pbadges"><span class="pcat cat-ml">Machine Learning</span><span class="pcat cat-an">Analytics</span></span>
       </div>
       <h3 class="ptitle">Otimização de Campanhas de Marketing</h3>
-      <p class="pdesc">Modelagem preditiva para otimizar estratégias de marketing digital e maximizar o ROI das campanhas.</p>
-      <div class="ptags"><span>Marketing</span><span>ROI</span><span>Modelagem Preditiva</span></div>
+      <p class="pdesc">Uplift modeling entre duas campanhas de Facebook Ads e LASSO com interações: qual campanha destinar a cada público, quais combinações de segmento convertem mais e onde o orçamento rende.</p>
+      <div class="ptags"><span>Uplift Modeling</span><span>LASSO</span><span>R</span><span>Facebook Ads</span></div>
       <div class="pfoot"><span class="plink">Ver projeto <span class="arr">→</span></span><span class="phost">github.io</span></div>
     </a>
 
