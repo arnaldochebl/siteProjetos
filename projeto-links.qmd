@@ -119,15 +119,15 @@ format:
       <div class="pfoot"><span class="plink">Ver projeto <span class="arr">→</span></span><span class="phost">github.io</span></div>
     </a>
 
-    <a class="pcard reveal" data-cat="analytics" href="https://github.com/arnaldochebl/financial_analytics/blob/main/series_volateis.ipynb" target="_blank" rel="noopener">
+    <a class="pcard reveal" data-cat="analytics" href="https://arnaldochebl.github.io/financial_analytics/" target="_blank" rel="noopener">
       <div class="ptop">
         <span class="picon" style="--tint:#fdf1dc">📈</span>
         <span class="pbadges"><span class="pcat cat-an">Analytics</span></span>
       </div>
-      <h3 class="ptitle">Otimização de Portfólios Financeiros</h3>
-      <p class="pdesc">Modelagem de volatilidade em séries financeiras e construção da fronteira eficiente para alocação de investimentos.</p>
-      <div class="ptags"><span>Python</span><span>Séries Temporais</span><span>Fronteira Eficiente</span></div>
-      <div class="pfoot"><span class="plink">Ver notebook <span class="arr">→</span></span><span class="phost">GitHub</span></div>
+      <h3 class="ptitle">Volatilidade e Carteiras na B3</h3>
+      <p class="pdesc">GARCH, fronteira eficiente e a prova fora da amostra em 6 ações da B3: a carteira "ótima" do treino perde para a mínima variância no teste, e o VaR previsto passa no backtest de Kupiec.</p>
+      <div class="ptags"><span>GARCH</span><span>Fronteira Eficiente</span><span>VaR</span><span>Backtest</span></div>
+      <div class="pfoot"><span class="plink">Ver análise interativa <span class="arr">→</span></span><span class="phost">github.io</span></div>
     </a>
 
     <a class="pcard reveal" data-cat="dash" href="https://datasciencedeploy.shinyapps.io/appsylon4/" target="_blank" rel="noopener">
