@@ -45,8 +45,8 @@ format:
   </div>
 
   <div class="filters reveal" role="group" aria-label="Filtrar projetos por área">
-    <button class="chip on" data-filter="all" aria-pressed="true">Todos <span>8</span></button>
-    <button class="chip" data-filter="ml" aria-pressed="false">Machine Learning <span>4</span></button>
+    <button class="chip on" data-filter="all" aria-pressed="true">Todos <span>9</span></button>
+    <button class="chip" data-filter="ml" aria-pressed="false">Machine Learning <span>5</span></button>
     <button class="chip" data-filter="nlp" aria-pressed="false">NLP <span>1</span></button>
     <button class="chip" data-filter="dash" aria-pressed="false">Dashboards <span>2</span></button>
     <button class="chip" data-filter="analytics" aria-pressed="false">Analytics <span>4</span></button>
@@ -72,6 +72,17 @@ format:
           <div class="fm"><b>3</b><small>modelos comparados</small></div>
         </div>
       </div>
+      <div class="pfoot"><span class="plink">Ver análise interativa <span class="arr">→</span></span><span class="phost">github.io</span></div>
+    </a>
+
+    <a class="pcard reveal" data-cat="ml" href="https://arnaldochebl.github.io/ONS/" target="_blank" rel="noopener">
+      <div class="ptop">
+        <span class="picon" style="--tint:#fdf3dc">⚡</span>
+        <span class="pbadges"><span class="pcat cat-ml">Machine Learning</span></span>
+      </div>
+      <h3 class="ptitle">Previsão de Carga do SIN (modelo vivo)</h3>
+      <p class="pdesc">Forecasting da carga elétrica do Brasil de 1h a 24h à frente: MAPE de 1,72% no holdout, quantis com calibração conformal e um modelo que registra previsões em público toda semana, de graça, via GitHub Actions.</p>
+      <div class="ptags"><span>Forecasting</span><span>LightGBM</span><span>Séries Temporais</span><span>MLOps</span></div>
       <div class="pfoot"><span class="plink">Ver análise interativa <span class="arr">→</span></span><span class="phost">github.io</span></div>
     </a>
 
